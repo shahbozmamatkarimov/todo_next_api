@@ -1,0 +1,26 @@
+{
+  "name": "todo-backend-next-sequelize",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrate": "node src/migrate.js",
+    "seed": "node src/seed/createCategories.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "next": "13.5.8",
+    "nextjs-cors": "^2.2.0",
+    "pg": "^8.11.0",
+    "sequelize": "^6.32.1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.9",
+    "typescript": "5.9.2"
+  }
+}
